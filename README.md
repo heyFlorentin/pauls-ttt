@@ -168,8 +168,9 @@ nano lgsm/config-lgsm/gmodserver/gmodserver.cfg
 Add/modify the following parameters:
 
 ```ini
+gslt="YOUR_GSLT"
 gamemode="terrortown"
-defaultmap="ttt_waterworld"
+defaultmap="ttt_waterworld_remastered_2020"
 maxplayers="32"
 tickrate="66"
 port="27015"
@@ -285,7 +286,7 @@ sv_log_onefile 0
 Edit `serverfiles/garrysmod/cfg/mapcycle.txt`:
 
 ```text
-ttt_waterworld
+ttt_waterworld_remastered_2020
 ttt_minecraft_b5
 ttt_rooftops_a2_f1
 ttt_clue_se
