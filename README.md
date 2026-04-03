@@ -273,13 +273,6 @@ sv_maxupdaterate 66
 sv_mincmdrate 66
 sv_maxcmdrate 66
 gmod_physiterations 2 // Lowers physics CPU usage
-
-// TTT2 Specific Variables
-ttt_preptime_seconds 30
-ttt_firstpreptime 60
-ttt_posttime_seconds 15
-ttt_haste_mode 1
-ttt_minimum_players 2
 ```
 
 **`autoexec.cfg`:**
