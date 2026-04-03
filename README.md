@@ -10,8 +10,8 @@ This document provides comprehensive technical instructions for deploying, confi
 
 - **CPU:** High single-core performance (3.5GHz+ recommended). Garry's Mod is predominantly single-threaded.
 - **RAM:** Minimum 8GB (16GB recommended due to the heavy mod load and engine memory leaks).
-- **Storage:** 50GB+ NVMe/SSD for OS, server files, FastDL, and Workshop content.
-- **Network:** 1Gbps uplink for FastDL serving and smooth 66-tick performance.
+- **Storage:** 50GB+ NVMe/SSD for OS, server files, and Workshop content.
+- **Network:** 1Gbps uplink for smooth 66-tick performance.
 
 **Dependency Installation (Ubuntu 24.04 LTS):**
 Ubuntu 24.04 (Noble Numbat) requires enabling the 32-bit architecture to run Source engine binaries and SteamCMD.
@@ -20,7 +20,7 @@ Ubuntu 24.04 (Noble Numbat) requires enabling the 32-bit architecture to run Sou
 sudo timedatectl set-timezone Europe/Berlin
 sudo dpkg --add-architecture i386
 sudo apt update && sudo apt upgrade -y
-sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat-openbsd lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd nginx mariadb-server fail2ban pigz -y
+sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat-openbsd lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd mariadb-server fail2ban pigz -y
 ```
 
 **User Account Creation:**
@@ -100,7 +100,6 @@ sudo ufw allow 27015/tcp # RCON/Query
 sudo ufw allow 27015/udp # Game Traffic
 sudo ufw allow 27005/udp # Client Port
 sudo ufw allow 27020/udp # SourceTV
-sudo ufw allow 80/tcp    # FastDL (Nginx)
 sudo ufw allow 22/tcp    # SSH
 sudo ufw reload
 ```
@@ -176,57 +175,13 @@ tickrate="66"
 port="27015"
 clientport="27005"
 wsapikey="YOUR_STEAM_WEB_API_KEY"
-wscollectionid="YOUR_WORKSHOP_COLLECTION_ID"
+wscollectionid="3698746151"
 
 # Disable Lua Auto-Refresh to prevent massive lag spikes with 300+ mods
-fn_parms(){
-    parms="-game garrysmod -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${tvport} +map ${defaultmap} +servercfgfile ${servercfg} -maxplayers ${maxplayers} -tickrate ${tickrate} +gamemode ${gamemode} -disableluarefresh +host_workshop_collection ${wscollectionid} -authkey ${wsapikey}"
+fn_parms() {
+  parms="-game garrysmod -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${tvport} +map ${defaultmap} +servercfgfile ${servercfg} -maxplayers ${maxplayers} -tickrate ${tickrate} +gamemode ${gamemode} -disableluarefresh +host_workshop_collection ${wscollectionid} -authkey ${wsapikey}"
 }
 ```
-
-**FastDL (Fast Download) Setup via Nginx:**
-Serving 300+ mods via Steam Workshop can lead to timeouts. A FastDL mirror is essential.
-As `root` or a user with `sudo` privileges:
-
-```bash
-sudo nano /etc/nginx/sites-available/fastdl
-```
-
-```nginx
-server {
-    listen 80;
-    server_name 127.0.0.1; # Replace with your domain/IP
-    root /home/gmodserver/serverfiles/garrysmod;
-
-    location / {
-        autoindex on;
-    }
-
-    # Security: Block access to configuration and databases
-    location ~ \.(cfg|db|sqlite|txt|log)$ {
-        deny all;
-    }
-}
-```
-
-Enable the site and restart Nginx:
-
-```bash
-sudo ln -s /etc/nginx/sites-available/fastdl /etc/nginx/sites-enabled/
-sudo systemctl restart nginx
-```
-
-**Fixing 403 Forbidden Errors (Permissions):**
-If you encounter a `403 Forbidden` error when testing your FastDL URL, Nginx likely lacks permission to read the `gmodserver` home directory. Run the following to grant the necessary access:
-
-```bash
-sudo usermod -aG gmodserver www-data
-sudo chmod 750 /home/gmodserver
-sudo chmod -R 755 /home/gmodserver/serverfiles/garrysmod
-sudo systemctl restart nginx
-```
-
-_(Note: If your system uses a different Nginx user, such as `nginx` on CentOS/RHEL, replace `www-data` with `nginx`)_
 
 **Cronjobs (Monitoring, Backup, Updates):**
 As the `gmodserver` user, automate server tasks:
@@ -245,7 +200,7 @@ Add the following lines:
 0 4 * * * /home/gmodserver/gmodserver restart > /dev/null 2>&1 # Daily restart for stability
 ```
 
-_Verification Step:_ Run `crontab -l` to ensure cronjobs are saved. Access `http://127.0.0.1/maps/` in a web browser to test Nginx FastDL (ensure no `.cfg` files are accessible).
+_Verification Step:_ Run `crontab -l` to ensure cronjobs are saved.
 
 ---
 
@@ -255,14 +210,13 @@ _Verification Step:_ Run `crontab -l` to ensure cronjobs are saved. Access `http
 File: `/home/gmodserver/serverfiles/garrysmod/cfg/server.cfg`
 
 ```ini
-hostname "Pauls & Friends TTT2 | Custom Roles | FastDL"
+hostname "Paul & Friends TTT2 | 66 Tick"
 sv_password ""       // Set if you want a private server
 rcon_password ""     // Disabled for security; use server console/LinuxGSM instead
 
-// Network & FastDL
-sv_downloadurl "http://fastdl.pauls-ttt.com/"
-sv_allowdownload 0   // Forces clients to use FastDL or Workshop
-sv_allowupload 0     // Security: prevent malicious uploads
+// Network
+sv_allowdownload 1   // Forces clients to use Workshop
+sv_allowupload 1
 net_maxfilesize 64
 
 // Tickrate & Rates (Optimized for 66 Tick)
@@ -341,43 +295,8 @@ resource.AddWorkshop("YOUR_WORKSHOP_COLLECTION_ID")
 **Handling 300+ Mods (Dependency Resolution & Load Order):**
 
 - **Avoid 300 individual Workshop items:** Loading 300+ individual Workshop items causes a "Connection Timed Out" error for joining players due to the time it takes the client to query Steam.
-- **Optimization:** Pack custom materials, models, and sounds into a single `.gma` using GMAD, or extract them directly to the `serverfiles/garrysmod/` directories to serve via FastDL.
+- **Optimization:** Pack custom materials, models, and sounds into a single `.gma` using GMAD.
 - **Load Order:** Garry's Mod loads addons alphabetically. If a TTT2 role depends on a base mod, ensure the base mod's folder name precedes the role mod's folder name, or use `hook.Add("Initialize", ...)` in Lua to ensure dependencies are loaded.
-
-**Manual Workshop Map Download (SteamCMD & FastDL):**
-To manually download a specific map, such as **TTT_Waterworld_Remastered_2020** ([Workshop ID 1293781407](https://steamcommunity.com/sharedfiles/filedetails/?id=1293781407)), and configure it for FastDL distribution on your LinuxGSM Garry's Mod server:
-
-1. **Download via SteamCMD:**
-   Log in anonymously and download the Garry's Mod (AppID `4000`) workshop item:
-   ```bash
-   steamcmd +login anonymous +workshop_download_item 4000 1293781407 +quit
-   ```
-2. **Integrate into Server:**
-   The downloaded `.gma` file will be saved in the SteamCMD workshop content directory (typically `~/.local/share/Steam/steamapps/workshop/content/4000/1293781407/`).
-   Extract the `.gma` file using the `gmad_linux` utility included with your server, then copy the extracted `.bsp` map file into the server's maps directory:
-
-   ```bash
-   # Extract the .gma archive
-   /home/gmodserver/serverfiles/bin/gmad_linux extract -file ~/.local/share/Steam/steamapps/workshop/content/4000/1293781407/*.gma -out /tmp/ttt_waterworld
-   
-   # Copy the map file to the server's maps folder
-   cp /tmp/ttt_waterworld/maps/*.bsp /home/gmodserver/serverfiles/garrysmod/maps/
-   ```
-
-3. **Configure for FastDL:**
-   Use the LinuxGSM FastDL command to automatically generate compressed `.bz2` files and sync the content to your FastDL web directory (`/home/gmodserver/public_html/fastdl`):
-   ```bash
-   ./gmodserver fastdl
-   ```
-4. **Configuration Edit:**
-   Add the new map to your map rotation file `/home/gmodserver/serverfiles/garrysmod/cfg/mapcycle.txt`:
-   ```text
-   ttt_waterworld_remastered_2020
-   ```
-5. **Verification:**
-   Restart the server (`./gmodserver restart`). Join the server and check the client console to ensure the map is downloaded quickly via your FastDL URL (`http://fastdl.pauls-ttt.com/maps/ttt_waterworld_remastered_2020.bsp.bz2`) rather than falling back to the Workshop or slow SRCDS downloads.
-
-_Verification Step:_ Join the server with an empty `garrysmod/addons/` folder locally and verify that Workshop content downloads automatically.
 
 ---
 
@@ -420,7 +339,7 @@ sudo systemctl restart ssh
 ```
 
 **Fail2Ban Configuration:**
-Protect SSH and Nginx from brute-force attacks:
+Protect SSH from brute-force attacks:
 
 ```bash
 sudo systemctl enable fail2ban
@@ -443,7 +362,7 @@ sudo chmod -R 750 /home/gmodserver
 **Admin Privileges:**
 Use ULX or ServerGuard. Configure `users.txt` or ULX via the ingame GUI (XGUI). Do not grant `superadmin` to temporary staff.
 
-_Verification Step:_ Attempt to connect via SSH using a password (should be rejected). Attempt to use an RCON tool (should fail). Check FastDL URLs for `.cfg` files (should return 403 Forbidden).
+_Verification Step:_ Attempt to connect via SSH using a password (should be rejected). Attempt to use an RCON tool (should fail).
 
 ---
 
