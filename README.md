@@ -287,16 +287,6 @@ sv_logfile 1
 sv_log_onefile 0
 ```
 
-**Map Rotation:**
-Edit `serverfiles/garrysmod/cfg/mapcycle.txt`:
-
-```text
-ttt_waterworld_remastered_2020
-ttt_minecraft_b5
-ttt_rooftops_a2_f1
-ttt_clue_se
-```
-
 _Verification Step:_ Start the server (`./gmodserver start`). Check the console (`./gmodserver console`) to verify the 66 tickrate and map loading without errors. Press `CTRL+B` then `D` to detach from the tmux console.
 
 ---
