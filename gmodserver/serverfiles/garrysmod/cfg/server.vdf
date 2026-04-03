@@ -1,6 +1,6 @@
 "CVars"
 {
-	"gmod_physiterations"		"2"
+	"gmod_physiterations"		"4"
 	"ttt_lang_serverdefault"		"english"
 	"ttt_limit_spectator_chat"		"1"
 	"ttt_limit_spectator_voice"		"1"
