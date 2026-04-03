@@ -1,6 +1,6 @@
-# Pauls & Friends TTT - Server Documentation (TTT2)
+# Paul & Friends TTT - Server Documentation (TTT2)
 
-This document provides comprehensive technical instructions for deploying, configuring, and maintaining the "Pauls & Friends TTT" Garry's Mod server running Trouble in Terrorist Town 2 (TTT2). It is designed for Ubuntu 24.04 LTS using LinuxGSM.
+This document provides comprehensive technical instructions for deploying, configuring, and maintaining the "Paul & Friends TTT" Garry's Mod server running Trouble in Terrorist Town 2 (TTT2). It is designed for Ubuntu 24.04 LTS using LinuxGSM.
 
 ---
 
