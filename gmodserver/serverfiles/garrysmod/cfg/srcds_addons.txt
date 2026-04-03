@@ -1,0 +1,1538 @@
+"srcds_addons"
+{
+	"104544633"
+	{
+		"name"		"ttt_skytower_b1-1"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/104544633/558704884489624533_legacy.bin"
+	}
+	"104797349"
+	{
+		"name"		"ttt_onesmallshamble"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/104797349/39742748770927525_legacy.bin"
+	}
+	"106404821"
+	{
+		"name"		"TTT Traitor Turtlenade"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/106404821/594750798505664165_legacy.bin"
+	}
+	"106498411"
+	{
+		"name"		"ttt_mc_skyislands"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/106498411/560956744503085982_legacy.bin"
+	}
+	"106527577"
+	{
+		"name"		"TTT_Lost_Temple"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/106527577/595860763384624605_legacy.bin"
+	}
+	"109410344"
+	{
+		"name"		"TTT_Chaser"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/109410344/578973081515596008_legacy.bin"
+	}
+	"110656185"
+	{
+		"name"		"TTT Terrorception"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/110656185/540693576076188919_legacy.bin"
+	}
+	"118937144"
+	{
+		"name"		"ttt_lttp_kakariko"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/118937144"
+	}
+	"122294249"
+	{
+		"name"		"TTT Aug"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/122294249/558713043522211784_legacy.bin"
+	}
+	"124648402"
+	{
+		"name"		"Orbital Friendship Cannon"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/124648402/776223533769861715_legacy.bin"
+	}
+	"131667838"
+	{
+		"name"		"ttt_community_bowling"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/131667838/919004911567391768_legacy.bin"
+	}
+	"133297756"
+	{
+		"name"		"TTT - Crossbow ( Updated )"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/133297756/541829613345013581_legacy.bin"
+	}
+	"133911194"
+	{
+		"name"		"ttt_theship_v1"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/133911194/882977693157315578_legacy.bin"
+	}
+	"135894827"
+	{
+		"name"		"ttt_foundation_a1"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/135894827/884104004677115446_legacy.bin"
+	}
+	"137891506"
+	{
+		"name"		"ttt_plaza"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/137891506/1082263151422277238_legacy.bin"
+	}
+	"139174576"
+	{
+		"name"		"ttt_magma"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/139174576/597000291678091696_legacy.bin"
+	}
+	"142911907"
+	{
+		"name"		"Advanced Combat Rolls"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/142911907/558722001445510612_legacy.bin"
+	}
+	"143546559"
+	{
+		"name"		"ttt_slender_v3_fix"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/143546559/848078277554879318_legacy.bin"
+	}
+	"144575800"
+	{
+		"name"		"ttt_community_pool_revamped"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/144575800/885233881446034135_legacy.bin"
+	}
+	"145316417"
+	{
+		"name"		"ttt_fastfood_a6"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/145316417/1081141376163066772_legacy.bin"
+	}
+	"147635981"
+	{
+		"name"		"ttt_forest"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/147635981/1081141639034806753_legacy.bin"
+	}
+	"153600777"
+	{
+		"name"		"ttt_metropolis"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/153600777/631909509242702582_legacy.bin"
+	}
+	"159321088"
+	{
+		"name"		"ttt_minecraft_b5"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/159321088/901001920661839275_legacy.bin"
+	}
+	"165558674"
+	{
+		"name"		"TTT Weapon - Thompson G2 Contender by Humility"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/165558674/1119430406505098911_legacy.bin"
+	}
+	"166184041"
+	{
+		"name"		"TTT Weapon - Heckler & Koch XM8"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/166184041/1118302506460865965_legacy.bin"
+	}
+	"167809847"
+	{
+		"name"		"Fly By Sounds"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/167809847"
+	}
+	"169342118"
+	{
+		"name"		"ttt_casino_b2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/169342118/578997538652426846_legacy.bin"
+	}
+	"176887855"
+	{
+		"name"		"ttt_mw2_terminal"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/176887855/577873793485466811_legacy.bin"
+	}
+	"177400692"
+	{
+		"name"		"ttt_67thway_v6"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/177400692"
+	}
+	"183293832"
+	{
+		"name"		"TTT Weapon- L85-SUSAT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/183293832/1046252431403281927_legacy.bin"
+	}
+	"183797802"
+	{
+		"name"		"TTT_island_2013"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/183797802/1101419736435858360_legacy.bin"
+	}
+	"186014186"
+	{
+		"name"		"ttt_subway_b4"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/186014186/1046251162713029918_legacy.bin"
+	}
+	"186542337"
+	{
+		"name"		"ttt_Mouse_House"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/186542337/541848736527182103_legacy.bin"
+	}
+	"186842624"
+	{
+		"name"		"ttt_minecraftcity_v4"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/186842624/1046251891047971452_legacy.bin"
+	}
+	"195227686"
+	{
+		"name"		"TTT_Dolls"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/195227686/903265147712853715_legacy.bin"
+	}
+	"196978840"
+	{
+		"name"		"ttt_old_factory"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/196978840/505823168008162855_legacy.bin"
+	}
+	"201027186"
+	{
+		"name"		"FA:S 2.0 Alpha SWEPs - Misc"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/201027186/437199929896380042_legacy.bin"
+	}
+	"202109385"
+	{
+		"name"		"ttt_traitorville_v2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/202109385/684842373387771507_legacy.bin"
+	}
+	"223060077"
+	{
+		"name"		"TTT Dual Berettas"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/223060077/3336341815779572819_legacy.bin"
+	}
+	"225290483"
+	{
+		"name"		"TTT Impact Pistol"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/225290483/3299187912221088468_legacy.bin"
+	}
+	"228041314"
+	{
+		"name"		"ttt_glacier"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/228041314/595903263603460780_legacy.bin"
+	}
+	"238575181"
+	{
+		"name"		"ttt_kakariko"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/238575181/26227796669434981_legacy.bin"
+	}
+	"240749516"
+	{
+		"name"		"[Gamemode: TTT] Hitman Silverballer"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/240749516/594780161231591777_legacy.bin"
+	}
+	"242392255"
+	{
+		"name"		"MP7"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/242392255/3318332036008890143_legacy.bin"
+	}
+	"246458792"
+	{
+		"name"		"CS:GO Negev for TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/246458792/365155921126921977_legacy.bin"
+	}
+	"248583089"
+	{
+		"name"		"CS:GO HE Grenade for TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/248583089/3336348333438243762_legacy.bin"
+	}
+	"248949639"
+	{
+		"name"		"ttt_mall"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/248949639/3280053338128160488_legacy.bin"
+	}
+	"253292930"
+	{
+		"name"		"ttt_cluedo_b5_improved1"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253292930/451793768183163646_legacy.bin"
+	}
+	"253297309"
+	{
+		"name"		"ttt_airbus_b3"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253297309/451793768183534510_legacy.bin"
+	}
+	"253328815"
+	{
+		"name"		"ttt_skyscraper"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253328815/451793768186030709_legacy.bin"
+	}
+	"253736148"
+	{
+		"name"		"[TTT/2] Traitor AK47 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253736148/271718270756147360_legacy.bin"
+	}
+	"253736374"
+	{
+		"name"		"[TTT/2] AUG (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253736374"
+	}
+	"253736639"
+	{
+		"name"		"[TTT/2] Famas (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253736639/271718270756144835_legacy.bin"
+	}
+	"253736787"
+	{
+		"name"		"[TTT/2] G3SG1 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253736787"
+	}
+	"253736902"
+	{
+		"name"		"[TTT/2] Galil (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253736902/271718270756145123_legacy.bin"
+	}
+	"253737175"
+	{
+		"name"		"[TTT/2] M3S90 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253737175/196298724738838038_legacy.bin"
+	}
+	"253737302"
+	{
+		"name"		"[TTT/2] MP5 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253737302/271718270756146511_legacy.bin"
+	}
+	"253737433"
+	{
+		"name"		"[TTT/2] Detective P90 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253737433"
+	}
+	"253737636"
+	{
+		"name"		"[TTT/2] P228 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253737636/271718270756146650_legacy.bin"
+	}
+	"253737741"
+	{
+		"name"		"[TTT/2] SG552 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253737741"
+	}
+	"253737867"
+	{
+		"name"		"[TTT/2] Traitor Silenced M4A1 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253737867/271718270756147639_legacy.bin"
+	}
+	"253737973"
+	{
+		"name"		"[TTT/2] TMP (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/253737973/271718270756147224_legacy.bin"
+	}
+	"254177306"
+	{
+		"name"		"[TTT/2] M4 SLAM (Tripmine + Remote C4)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/254177306"
+	}
+	"254467726"
+	{
+		"name"		"ttt_Killville"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/254467726/35217691610972680_legacy.bin"
+	}
+	"255086323"
+	{
+		"name"		"ttt_elevatorandstairs"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/255086323/26228891351378802_legacy.bin"
+	}
+	"257135813"
+	{
+		"name"		"ttt_frostburn"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/257135813/3280054973841104504_legacy.bin"
+	}
+	"260830368"
+	{
+		"name"		"ttt_Comancher_Petite"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/260830368/612799444195420800_legacy.bin"
+	}
+	"264021906"
+	{
+		"name"		"TTT AR-15"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/264021906/3264294271737822121_legacy.bin"
+	}
+	"265678425"
+	{
+		"name"		"[TTT] Brain Parasite"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/265678425"
+	}
+	"265714452"
+	{
+		"name"		"TTT - Grapplehook (WITH ICON)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/265714452/3260917207435232410_legacy.bin"
+	}
+	"275898388"
+	{
+		"name"		"ttt_alps"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/275898388/559885232784676687_legacy.bin"
+	}
+	"276959806"
+	{
+		"name"		"Molotov Cocktail for TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/276959806/869615759262098066_legacy.bin"
+	}
+	"278468691"
+	{
+		"name"		"TTT Mk17 (SCAR)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/278468691/3242905725046499633_legacy.bin"
+	}
+	"278574247"
+	{
+		"name"		"TTT Barrett M82"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/278574247/776059063328872866_legacy.bin"
+	}
+	"280621102"
+	{
+		"name"		"TTT Classrooms"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/280621102/72373900260366123_legacy.bin"
+	}
+	"281170429"
+	{
+		"name"		"ttt_slums (TTT + Hide and Seek + Murder)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/281170429/633104450696192120_legacy.bin"
+	}
+	"281454209"
+	{
+		"name"		"ttt_Clue_se"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/281454209/52105644303055606_legacy.bin"
+	}
+	"281659113"
+	{
+		"name"		"ttt_forgotten_mansion"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/281659113/44227515007568045_legacy.bin"
+	}
+	"282047863"
+	{
+		"name"		"ttt_fiskarna_v2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/282047863/577900900831181238_legacy.bin"
+	}
+	"285372790"
+	{
+		"name"		"ttt_innocentmotel"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/285372790/47603319303324810_legacy.bin"
+	}
+	"290247692"
+	{
+		"name"		"ttt_mw2_highrise"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/290247692/39722647485366994_legacy.bin"
+	}
+	"291180158"
+	{
+		"name"		"TTT - The Vampire"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/291180158/35241878923278969_legacy.bin"
+	}
+	"294564108"
+	{
+		"name"		"Explosive Melon Launcher TTT Edition"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/294564108/713034657406017578_legacy.bin"
+	}
+	"295897079"
+	{
+		"name"		"ttt_lego"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/295897079/267221016512891138_legacy.bin"
+	}
+	"298470515"
+	{
+		"name"		"ttt_67thway_v14"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/298470515/576778806881694364_legacy.bin"
+	}
+	"302437709"
+	{
+		"name"		"ttt_abbottabad"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/302437709/23962034287073468_legacy.bin"
+	}
+	"305175632"
+	{
+		"name"		"TTT Deagle Reskin"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/305175632/40851156748552317_legacy.bin"
+	}
+	"306263507"
+	{
+		"name"		"Dragon Deagle SWEP - TTT Edition"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/306263507/39725818165610902_legacy.bin"
+	}
+	"307345118"
+	{
+		"name"		"TTT Shotgun Pack"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/307345118/561017475181445475_legacy.bin"
+	}
+	"307400139"
+	{
+		"name"		"TTT Assault Pack"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/307400139/561017475181138506_legacy.bin"
+	}
+	"307401169"
+	{
+		"name"		"TTT Pistol Pack"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/307401169/538500745577076271_legacy.bin"
+	}
+	"312731430"
+	{
+		"name"		"TTT_Riverside"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/312731430/34097587347673312_legacy.bin"
+	}
+	"316433211"
+	{
+		"name"		"TTT Assault Pack 2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/316433211/538501584001616953_legacy.bin"
+	}
+	"329300929"
+	{
+		"name"		"FY-71 Custom SWEP for TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/329300929/40856156479742445_legacy.bin"
+	}
+	"334016220"
+	{
+		"name"		"TTT_Intervention"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/334016220/543008797645821180_legacy.bin"
+	}
+	"337051266"
+	{
+		"name"		"TTT SILENT AWP"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/337051266/544135328312961228_legacy.bin"
+	}
+	"337311940"
+	{
+		"name"		"ttt_terraria"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/337311940/39732170068044842_legacy.bin"
+	}
+	"355834158"
+	{
+		"name"		"TTT_Dong"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/355834158/55497934057954388_legacy.bin"
+	}
+	"365484855"
+	{
+		"name"		"ttt_troubleisland"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/365484855/553146965991392353_legacy.bin"
+	}
+	"371886156"
+	{
+		"name"		"[TTT] ttt_terminus_v1"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/371886156/545267653734616318_legacy.bin"
+	}
+	"376441841"
+	{
+		"name"		"TTT - Medkit (Traitor)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/376441841/43116295273449877_legacy.bin"
+	}
+	"377735723"
+	{
+		"name"		"Kriss Vector Dual Mag"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/377735723/36360895847437902_legacy.bin"
+	}
+	"378091855"
+	{
+		"name"		"Winter - Deathmatch, TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/378091855/270588452671474568_legacy.bin"
+	}
+	"380972923"
+	{
+		"name"		"Bloody Knife"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/380972923/36361807061223108_legacy.bin"
+	}
+	"389346280"
+	{
+		"name"		"ttt_minecraft_haven"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/389346280/528382321318861261_legacy.bin"
+	}
+	"394659444"
+	{
+		"name"		"SG550 Commando for TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/394659444/531759936240033864_legacy.bin"
+	}
+	"407013171"
+	{
+		"name"		"ttt_lostwoods"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/407013171/529510215639671262_legacy.bin"
+	}
+	"407319589"
+	{
+		"name"		"K-volt (Works only in TTT!)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/407319589/714157802046005267_legacy.bin"
+	}
+	"420296513"
+	{
+		"name"		"TTT AR15"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/420296513/539646410283467481_legacy.bin"
+	}
+	"420589986"
+	{
+		"name"		"TTT Magnum Random Spawn"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/420589986/715285422656883012_legacy.bin"
+	}
+	"456189236"
+	{
+		"name"		"[Gamemode: TTT] Traitor Harpoon"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/456189236/952958110714656681_legacy.bin"
+	}
+	"471237597"
+	{
+		"name"		"ttt_camel"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/471237597/263846487471083369_legacy.bin"
+	}
+	"477143906"
+	{
+		"name"		"Ice Knife (Trouble in Terrorist Town)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/477143906/780731815369320436_legacy.bin"
+	}
+	"479916231"
+	{
+		"name"		"TTT Unsilenced AWP"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/479916231/693902535299107125_legacy.bin"
+	}
+	"481692085"
+	{
+		"name"		"Super Discombobulator (TTT)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/481692085/702910034710899105_legacy.bin"
+	}
+	"505893682"
+	{
+		"name"		"TTT Explosive Baby Launcher"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/505893682/422564671271532224_legacy.bin"
+	}
+	"534491717"
+	{
+		"name"		"ttt_rooftops_2016"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/534491717/574565056145764780_legacy.bin"
+	}
+	"535433133"
+	{
+		"name"		"ttt_giant_daycare_Fixed"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/535433133/394421705861916451_legacy.bin"
+	}
+	"550005969"
+	{
+		"name"		"Remote Sticky Bomb [TTT]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/550005969/863987595651266138_legacy.bin"
+	}
+	"557962238"
+	{
+		"name"		"ULib"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/557962238"
+	}
+	"557962280"
+	{
+		"name"		"ULX"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/557962280"
+	}
+	"563731859"
+	{
+		"name"		"Tatooine"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/563731859/398929183717127984_legacy.bin"
+	}
+	"574757288"
+	{
+		"name"		"GMN TTT Snowball"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/574757288"
+	}
+	"577197148"
+	{
+		"name"		"ttt_67thway_rework_b1"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/577197148/389923815238342520_legacy.bin"
+	}
+	"580870055"
+	{
+		"name"		"ttt_magma_v2b"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/580870055/402309122802801601_legacy.bin"
+	}
+	"596033434"
+	{
+		"name"		"[TTT] The Present of Fate"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/596033434/360652321499213555_legacy.bin"
+	}
+	"609125395"
+	{
+		"name"		"TTT A-3000 Pistol"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/609125395/845966723149755537_legacy.bin"
+	}
+	"609578386"
+	{
+		"name"		"TTT FN-FAL-C1 SMG/Rifle"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/609578386/916912809294836787_legacy.bin"
+	}
+	"610337130"
+	{
+		"name"		"TTT A.X.E SMG"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/610337130/812181151401992793_legacy.bin"
+	}
+	"611224362"
+	{
+		"name"		"[ttt]_Combobulator"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/611224362/550933000119589872_legacy.bin"
+	}
+	"611911370"
+	{
+		"name"		"[TTT/2] Slowmotion with Icon"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/611911370/999143472988655001_legacy.bin"
+	}
+	"612578334"
+	{
+		"name"		"TTT Ar-15 Fixed"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/612578334/109606451631032899_legacy.bin"
+	}
+	"613786944"
+	{
+		"name"		"TTT Walther-2000 Autosniper"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/613786944/916912809294840492_legacy.bin"
+	}
+	"615091790"
+	{
+		"name"		"TTT Lemonade + LemonadeLauncher"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/615091790/845966723149760526_legacy.bin"
+	}
+	"617179823"
+	{
+		"name"		"TTT Random Tester"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/617179823/950724929039512715_legacy.bin"
+	}
+	"621565420"
+	{
+		"name"		"TTT Door Buster"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/621565420/845964103323285050_legacy.bin"
+	}
+	"622674986"
+	{
+		"name"		"ttt_bf3_ziba_tower"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/622674986/318997198286930923_legacy.bin"
+	}
+	"630413726"
+	{
+		"name"		"TTT Sawed-Off Shotgun"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/630413726/916912809295080039_legacy.bin"
+	}
+	"633134671"
+	{
+		"name"		"[TTT]Fassinator (fixed and improved)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/633134671/930436190616352020_legacy.bin"
+	}
+	"635030422"
+	{
+		"name"		"[TTT/2] SG550 (CS:S)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/635030422"
+	}
+	"639521512"
+	{
+		"name"		"[TTT] Boomerang"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/639521512"
+	}
+	"639762141"
+	{
+		"name"		"[TTT/2|Sandbox] Dragon Elites"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/639762141"
+	}
+	"643230441"
+	{
+		"name"		"[TTT/2|Sandbox] Mine Turtle (Proximity Mine)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/643230441"
+	}
+	"646690198"
+	{
+		"name"		"Dubstep Gun for TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/646690198/291978765896985372_legacy.bin"
+	}
+	"646754302"
+	{
+		"name"		"[TTT/2|Sandbox] Gauss Rifle"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/646754302"
+	}
+	"647112181"
+	{
+		"name"		"Shovel for TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/647112181/286349266362838872_legacy.bin"
+	}
+	"648957314"
+	{
+		"name"		"TTT Homerun Bat"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/648957314/950724929040326688_legacy.bin"
+	}
+	"652423997"
+	{
+		"name"		"ttt_craftroom - Minecraft Rats"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/652423997"
+	}
+	"653258161"
+	{
+		"name"		"[TTT/2] Blue Bull"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/653258161/999141806434225762_legacy.bin"
+	}
+	"654149429"
+	{
+		"name"		"TTT: Lootable Props - Chance for items to drop when breaking crates"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/654149429/529544672768216527_legacy.bin"
+	}
+	"654570222"
+	{
+		"name"		"TTT Banana Bomb"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/654570222/865110015588015586_legacy.bin"
+	}
+	"662146255"
+	{
+		"name"		"ttt_de_dolls_2008_v3"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/662146255/458614058542081261_legacy.bin"
+	}
+	"676695745"
+	{
+		"name"		"[TTT/2] The Little Helper"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/676695745/999141806434226459_legacy.bin"
+	}
+	"678143881"
+	{
+		"name"		"TTT AN94"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/678143881/448483291007354906_legacy.bin"
+	}
+	"678696026"
+	{
+		"name"		"TTT M1911"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/678696026/448483291011497845_legacy.bin"
+	}
+	"680737032"
+	{
+		"name"		"TTT Prop Exploder"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/680737032/820064252309286780_legacy.bin"
+	}
+	"686055179"
+	{
+		"name"		"ULX++ - New Commands and More!"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/686055179/963104528641735919_legacy.bin"
+	}
+	"716555212"
+	{
+		"name"		"[TTT] Traitor Railgun LEVEL5"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/716555212"
+	}
+	"738815378"
+	{
+		"name"		"[TTT] Genji's Katana"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/738815378"
+	}
+	"755748551"
+	{
+		"name"		"TTT Jarate"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/755748551/478893369645686067_legacy.bin"
+	}
+	"788891000"
+	{
+		"name"		"TTT Cassidy (McCree) Peacekeeper (Its High Noon)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/788891000/964242373532654496_legacy.bin"
+	}
+	"802015788"
+	{
+		"name"		"Blink for TTT/TTT2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/802015788"
+	}
+	"807428039"
+	{
+		"name"		"Holy Hand Greande + TTT"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/807428039/97223635695118123_legacy.bin"
+	}
+	"810743654"
+	{
+		"name"		"[TTT] Rainbow Six Siege Map House"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/810743654"
+	}
+	"816252821"
+	{
+		"name"		"ttt_desperados_2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/816252821/112984788737740952_legacy.bin"
+	}
+	"827320827"
+	{
+		"name"		"M1A0 Cat Gun"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/827320827/186170815312713193_legacy.bin"
+	}
+	"832254031"
+	{
+		"name"		"ttt_mcdonalds_mds_v2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/832254031/200807291041265210_legacy.bin"
+	}
+	"849612809"
+	{
+		"name"		"TTT Addon: Weapons Jammer"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/849612809/102856003018647111_legacy.bin"
+	}
+	"853158897"
+	{
+		"name"		"TTT Traitor Remote"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/853158897/811054860955117816_legacy.bin"
+	}
+	"867635838"
+	{
+		"name"		"ttt_grovestreet"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/867635838/155776271168560174_legacy.bin"
+	}
+	"869375322"
+	{
+		"name"		"TTT Detective Randomgun"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/869375322"
+	}
+	"874699750"
+	{
+		"name"		"TTT Grapple Hook"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/874699750/763857662331001687_legacy.bin"
+	}
+	"889034501"
+	{
+		"name"		"ttt_minecraft_b5"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/889034501/172666989166182210_legacy.bin"
+	}
+	"896084374"
+	{
+		"name"		"[TTT] The T-Suitcase"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/896084374/89351354844516567_legacy.bin"
+	}
+	"911182038"
+	{
+		"name"		"TTT - Headcrab Launcher"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/911182038/943951159916534819_legacy.bin"
+	}
+	"913310851"
+	{
+		"name"		"Jenssons TTT BeeNade"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/913310851"
+	}
+	"914980317"
+	{
+		"name"		"TTT Poison Dart Gun"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/914980317/862863634925372851_legacy.bin"
+	}
+	"922032405"
+	{
+		"name"		"TTT Shurikens"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/922032405/839204259568455718_legacy.bin"
+	}
+	"922334896"
+	{
+		"name"		"TTT Chicken"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/922334896/822315455462723081_legacy.bin"
+	}
+	"925075129"
+	{
+		"name"		"[TTT/TTT2] Spirit"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/925075129/771730171998342153_legacy.bin"
+	}
+	"936764744"
+	{
+		"name"		"ttt_community_pool_2017"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/936764744"
+	}
+	"946873907"
+	{
+		"name"		"TTT GLP-Dubstepgun"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/946873907/854969953749333983_legacy.bin"
+	}
+	"961750011"
+	{
+		"name"		"ttt_scpfoundation"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/961750011/838083785051814384_legacy.bin"
+	}
+	"971786142"
+	{
+		"name"		"ttt_clue_se_2017"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/971786142/830203174351641870_legacy.bin"
+	}
+	"1052672399"
+	{
+		"name"		"[TTT] Icevault"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1052672399/840336255340749700_legacy.bin"
+	}
+	"1117144118"
+	{
+		"name"		"[TTT/2] Team Buy Notifications"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1117144118"
+	}
+	"1137482209"
+	{
+		"name"		"[TTT2] Silentstep"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1137482209"
+	}
+	"1137493106"
+	{
+		"name"		"[TTT/2] Glowing Teammates"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1137493106"
+	}
+	"1186238384"
+	{
+		"name"		"ttt_the_room_christmas"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1186238384/862863634931113295_legacy.bin"
+	}
+	"1188011508"
+	{
+		"name"		"TTT - Amaterasu"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1188011508/870745221669624398_legacy.bin"
+	}
+	"1213282380"
+	{
+		"name"		"TTT_Eclipse_v4"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1213282380/784123140586149249_legacy.bin"
+	}
+	"1219185412"
+	{
+		"name"		"ttt_pelicantown"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1219185412/877503798911327888_legacy.bin"
+	}
+	"1274870496"
+	{
+		"name"		"[TTT2/TTT] Manipulation Knife"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1274870496"
+	}
+	"1293781407"
+	{
+		"name"		"TTT_Waterworld_Remastered_2020"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1293781407"
+	}
+	"1302335346"
+	{
+		"name"		"TTT Russian Roulette"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1302335346/936057451864348434_legacy.bin"
+	}
+	"1310924738"
+	{
+		"name"		"[TTT2/TTT/SB] Supersheep"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1310924738"
+	}
+	"1326870555"
+	{
+		"name"		"TTT Eagleflight"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1326870555/931561028381086812_legacy.bin"
+	}
+	"1346794275"
+	{
+		"name"		"TTT Weeping Angel SWEP"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1346794275/942834527344281451_legacy.bin"
+	}
+	"1357204556"
+	{
+		"name"		"TTT2 (Base) - v0.14.5b"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1357204556"
+	}
+	"1367125625"
+	{
+		"name"		"[TTT2] Sidekick [ROLE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1367125625"
+	}
+	"1367128301"
+	{
+		"name"		"[TTT2] Round Info [FEATURE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1367128301"
+	}
+	"1368035687"
+	{
+		"name"		"TTTC (Base) - Classes for TTT2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1368035687"
+	}
+	"1369546619"
+	{
+		"name"		"[TTT2] Animations [FEATURE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1369546619"
+	}
+	"1372718426"
+	{
+		"name"		"TTT Hunting Bow"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1372718426/921429109910631072_legacy.bin"
+	}
+	"1379388451"
+	{
+		"name"		"[TTT]Cloaking Device [FIX]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1379388451/909043855036271724_legacy.bin"
+	}
+	"1388481216"
+	{
+		"name"		"ttt_poolparty"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1388481216/914674483607510383_legacy.bin"
+	}
+	"1392362130"
+	{
+		"name"		"[TTT2] Jackal [ROLE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1392362130"
+	}
+	"1394984542"
+	{
+		"name"		"TTT The Matrix"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1394984542/920303390976649254_legacy.bin"
+	}
+	"1397098145"
+	{
+		"name"		"ttt_rpgvillage"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1397098145/952964455678585354_legacy.bin"
+	}
+	"1398388611"
+	{
+		"name"		"[TTT/2/T] Golden Deagle [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1398388611"
+	}
+	"1448640613"
+	{
+		"name"		"TTT Act"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1448640613"
+	}
+	"1473581448"
+	{
+		"name"		"[TTT2/TTT] Death Faker (fixed and improved)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1473581448"
+	}
+	"1475589106"
+	{
+		"name"		"ttt_bikinibottom"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1475589106"
+	}
+	"1490186898"
+	{
+		"name"		"ttt_clue_2018"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1490186898/950711248390973117_legacy.bin"
+	}
+	"1527075355"
+	{
+		"name"		"ttt_Cryptic_Keep"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1527075355/959729342240533765_legacy.bin"
+	}
+	"1529243151"
+	{
+		"name"		"TTT - Drachenlord Gun by Tubner"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1529243151/958595856445538126_legacy.bin"
+	}
+	"1568920033"
+	{
+		"name"		"ttt_marcielsmanor"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1568920033"
+	}
+	"1584675927"
+	{
+		"name"		"[TTT2] SpartanKick [WEAPON][FIXED]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1584675927"
+	}
+	"1585531208"
+	{
+		"name"		"Terrortrain 2018"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1585531208/939461991446702495_legacy.bin"
+	}
+	"1599710095"
+	{
+		"name"		"TTT Kamehameha Weapon"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1599710095/954100158970015584_legacy.bin"
+	}
+	"1615324913"
+	{
+		"name"		"[TTT2/TTT] Demonic Possession (Passive)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1615324913"
+	}
+	"1616801468"
+	{
+		"name"		"ttt_Aztec_Shrine"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1616801468/959730415478467117_legacy.bin"
+	}
+	"1629914760"
+	{
+		"name"		"[TTT2] Melon Mine [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1629914760"
+	}
+	"1630269736"
+	{
+		"name"		"TTT2 Martyrdom [Updated]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1630269736"
+	}
+	"1630788498"
+	{
+		"name"		"ttt_xdea"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1630788498/956354469472505422_legacy.bin"
+	}
+	"1631864277"
+	{
+		"name"		"TTT_Oilrig"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1631864277/938339513169621816_legacy.bin"
+	}
+	"1637001449"
+	{
+		"name"		"TTT2 Clairvoyancy [Updated]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1637001449/1005898314643767795_legacy.bin"
+	}
+	"1638966422"
+	{
+		"name"		"[TTT] Advanced Magneto Stick"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1638966422"
+	}
+	"1639024428"
+	{
+		"name"		"ttt_Cape_Town Revamped"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1639024428/957480811946797983_legacy.bin"
+	}
+	"1641605106"
+	{
+		"name"		"TTT[2] Beartrap [Updated]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1641605106"
+	}
+	"1653427864"
+	{
+		"name"		"ttt_LiesInTheHighRise"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1653427864/949601667132768063_legacy.bin"
+	}
+	"1694394035"
+	{
+		"name"		"[TTT/2] Air-To-Surface Missile"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1694394035"
+	}
+	"1704344827"
+	{
+		"name"		"ttt_pinnacle"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1704344827/954109468814053904_legacy.bin"
+	}
+	"1707123041"
+	{
+		"name"		"TTT Explosive Crossbow w/ Remote"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1707123041/967619871319379552_legacy.bin"
+	}
+	"1721571329"
+	{
+		"name"		"TTT_sandcrawler"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1721571329/816750769315617999_legacy.bin"
+	}
+	"1733063788"
+	{
+		"name"		"ttt_Playing_with_Portals revamped"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1733063788/1019444551065764941_legacy.bin"
+	}
+	"1741790902"
+	{
+		"name"		"JersonGaming's Model/Real RNG Ammo Boxes"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1741790902/797620073452063532_legacy.bin"
+	}
+	"1771164290"
+	{
+		"name"		"[TTT] Moon"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1771164290/794237560595730688_legacy.bin"
+	}
+	"1795267605"
+	{
+		"name"		"[TTT2] Octagonal HUD [THEME]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1795267605"
+	}
+	"1795338332"
+	{
+		"name"		"[TTT2] Advanced Spectator [FEATURE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1795338332"
+	}
+	"1795511061"
+	{
+		"name"		"[TTT2] Tracker [ITEM]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1795511061"
+	}
+	"1796051616"
+	{
+		"name"		"Trinity Church TTT Map"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1796051616/794240033743708947_legacy.bin"
+	}
+	"1802717950"
+	{
+		"name"		"TTT[2] Cloaking Device (passive)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1802717950"
+	}
+	"1812199726"
+	{
+		"name"		"TTT Simple - ttt_simple_otat1"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1812199726/795366892067365902_legacy.bin"
+	}
+	"1815518231"
+	{
+		"name"		"[TTT2] Super Soda [FEATURE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1815518231"
+	}
+	"1829884863"
+	{
+		"name"		"ttt_Al'sToyBarn - Toy Story 2 - 2024 UPDATE"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1829884863"
+	}
+	"1831532238"
+	{
+		"name"		"ttt_abandonedsubway"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1831532238/777354675921125703_legacy.bin"
+	}
+	"1840323666"
+	{
+		"name"		"[TTT2] Climb [ITEM]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1840323666"
+	}
+	"1841215461"
+	{
+		"name"		"[TTT2] ShootingSpeed [ITEM]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1841215461"
+	}
+	"1841219707"
+	{
+		"name"		"[TTT2] ReflectDamage / Damage Mirror [ITEM]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1841219707"
+	}
+	"1841223226"
+	{
+		"name"		"[TTT2] Glider [ITEM]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1841223226"
+	}
+	"1841225429"
+	{
+		"name"		"[TTT2] BlockDamage [ITEM]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1841225429"
+	}
+	"1848537723"
+	{
+		"name"		"[TTT2] Bulldozer [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1848537723/770600376568208654_legacy.bin"
+	}
+	"1860226716"
+	{
+		"name"		"ttt_winterplant"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1860226716/770601643786605418_legacy.bin"
+	}
+	"1863527222"
+	{
+		"name"		"TTT Kassle"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1863527222/784112627481901285_legacy.bin"
+	}
+	"1877139304"
+	{
+		"name"		"[TTT2] Heroes [GAMEMODE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1877139304"
+	}
+	"1877141086"
+	{
+		"name"		"[TTTC] Heroes Pack"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1877141086"
+	}
+	"1886992433"
+	{
+		"name"		"[TTT/2] Sawgun"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1886992433"
+	}
+	"1887920207"
+	{
+		"name"		"[TTT2] Infini Shoot [ITEM]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1887920207"
+	}
+	"1891158073"
+	{
+		"name"		"[TTT2] The T-Suitcase"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1891158073"
+	}
+	"1892460921"
+	{
+		"name"		"TTT_Lockup"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1892460921"
+	}
+	"1894982220"
+	{
+		"name"		"[TTT/2] Homing Pigeon"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1894982220"
+	}
+	"1896240122"
+	{
+		"name"		"[TTT2] Dancegun [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1896240122"
+	}
+	"1896918348"
+	{
+		"name"		"[TTT2] Minifier [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1896918348"
+	}
+	"1897777648"
+	{
+		"name"		"ttt_krustykrab"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1897777648/755968752093636257_legacy.bin"
+	}
+	"1909269337"
+	{
+		"name"		"[TTT/2] Orbital Friendship Beam"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1909269337"
+	}
+	"1927749387"
+	{
+		"name"		"TTT Nighttrap 2020"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1927749387/786373405536132160_legacy.bin"
+	}
+	"1969872846"
+	{
+		"name"		"[TTT/2] Unarmed Push"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1969872846/784123877856468920_legacy.bin"
+	}
+	"1970330495"
+	{
+		"name"		"ttt_crossfire_pog"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1970330495"
+	}
+	"1981488751"
+	{
+		"name"		"[TTT/2] Error Flashbang"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/1981488751"
+	}
+	"2002031048"
+	{
+		"name"		"[TTT2] Weapon Statistics [FEATURE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2002031048"
+	}
+	"2005666160"
+	{
+		"name"		"[TTT2] 3D Pointer [FEATURE]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2005666160"
+	}
+	"2024902834"
+	{
+		"name"		"[TTT] Thomas The Tank Engine REMAKE"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2024902834"
+	}
+	"2042473117"
+	{
+		"name"		"[TTT] ttt_city_center"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2042473117"
+	}
+	"2044677192"
+	{
+		"name"		"TTT Banana Bomb (fixed Icon)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2044677192"
+	}
+	"2045410446"
+	{
+		"name"		"koeftebomb"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2045410446"
+	}
+	"2056986984"
+	{
+		"name"		"Trouble in Animetown"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2056986984"
+	}
+	"2076189106"
+	{
+		"name"		"[TTT2] Barnacle [Improved]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2076189106"
+	}
+	"2076252233"
+	{
+		"name"		"ttt_hochhaus_fix"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2076252233"
+	}
+	"2086831737"
+	{
+		"name"		"TTT2 Medigun [Beta]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2086831737"
+	}
+	"2106730944"
+	{
+		"name"		"TTT Map - ttt_office_construction"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2106730944"
+	}
+	"2115944312"
+	{
+		"name"		"[TTT2] Defibrillator [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2115944312"
+	}
+	"2115945573"
+	{
+		"name"		"[TTT2] Door Locker [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2115945573"
+	}
+	"2127939503"
+	{
+		"name"		"[TTT/2] Prop Disguiser Improved"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2127939503"
+	}
+	"2142590333"
+	{
+		"name"		"ttt_skyscraper_octg"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2142590333"
+	}
+	"2143268505"
+	{
+		"name"		"[TTT2] A Second Chance [REWORK]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2143268505"
+	}
+	"2144375749"
+	{
+		"name"		"[TTT2] Identity Disguiser [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2144375749"
+	}
+	"2197154673"
+	{
+		"name"		"ttt_Clueless"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2197154673"
+	}
+	"2237612513"
+	{
+		"name"		"[TTT2] Space and Time Manipulator Extended"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2237612513"
+	}
+	"2243578658"
+	{
+		"name"		"[TTT/2] COD Zombies Perk Bottles"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2243578658"
+	}
+	"2664879356"
+	{
+		"name"		"[TTT2] Boom Body [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2664879356"
+	}
+	"2744465522"
+	{
+		"name"		"TTT2/ AR Pack"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2744465522"
+	}
+	"2746452003"
+	{
+		"name"		"TTT2/ SMG Pack"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2746452003"
+	}
+	"2755842907"
+	{
+		"name"		"TTT2/ Pistol Pack"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2755842907"
+	}
+	"2952828246"
+	{
+		"name"		"TTT Drachen Granate"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2952828246"
+	}
+	"3074845055"
+	{
+		"name"		"[TTT/2] Dead Ringer [ITEM]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/3074845055"
+	}
+	"3172357332"
+	{
+		"name"		"[TTT2] Necromancer Role (IMPROVED)"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/3172357332"
+	}
+	"3229789817"
+	{
+		"name"		"[TTT2] Mirror Fate [WEAPON]"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/3229789817"
+	}
+	"3230076202"
+	{
+		"name"		"HELLMENTOR PLAYERMODEL"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/3230076202"
+	}
+	"3527899753"
+	{
+		"name"		"Random Weapon Chests"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/3527899753"
+	}
+	"2326356403"
+	{
+		"name"		"ttt_bb_teenroom_b2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2326356403"
+	}
+	"3574028395"
+	{
+		"name"		"ttt_teenroom_2025_los"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/3574028395"
+	}
+	"2783629394"
+	{
+		"name"		"ttt_teenroom_2022_v2"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2783629394"
+	}
+	"2706252150"
+	{
+		"name"		"Partly Adequate Mapvote"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2706252150"
+	}
+	"2704980802"
+	{
+		"name"		"Partly Adequate Configuration Manager"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2704980802"
+	}
+	"933160196"
+	{
+		"name"		"Weapon Editor & Replacer"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/933160196/905653802592027709_legacy.bin"
+	}
+	"2706213071"
+	{
+		"name"		"PAM - Dark Votescreen"
+		"path"		"/home/gmodserver/serverfiles/steam_cache/content/4000/2706213071"
+	}
+}
