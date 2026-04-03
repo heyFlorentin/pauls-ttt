@@ -287,7 +287,33 @@ sv_logfile 1
 sv_log_onefile 0
 ```
 
-_Verification Step:_ Start the server (`./gmodserver start`). Check the console (`./gmodserver console`) to verify the 66 tickrate and map loading without errors. Press `CTRL+B` then `D` to detach from the tmux console.
+**Mounting Counter-Strike: Source (CS:S) Content:**
+Many Garry's Mod maps and addons (especially in TTT) require Counter-Strike: Source assets. To mount CS:S content to your `gmodserver` instance, follow these steps:
+
+1. **Obtain CS:S Content:**
+   Install a Counter-Strike: Source server using LinuxGSM to download the required assets. Refer to the [official LinuxGSM CS:S server guide](https://linuxgsm.com/servers/cssserver/) for complete installation instructions.
+2. **Copy Content to GMod Server:**
+   Once downloaded, copy the `cstrike` directory to your Garry's Mod server files and ensure correct ownership:
+
+   ```bash
+   cp -R /home/cssserver/serverfiles/cstrike /home/gmodserver/serverfiles/cstrike
+   sudo chown -R gmodserver:gmodserver /home/gmodserver/serverfiles/cstrike
+   ```
+
+3. **Configure `mount.cfg`:**
+   Edit the mount configuration file:
+   ```bash
+   nano /home/gmodserver/serverfiles/garrysmod/cfg/mount.cfg
+   ```
+   Update the file to include the absolute path to the `cstrike` directory:
+   ```ini
+   "mountcfg"
+   {
+       "cstrike"    "/home/gmodserver/serverfiles/cstrike"
+   }
+   ```
+
+_Verification Step:_ Start the server (`./gmodserver start`). Check the console (`./gmodserver console`) to verify the 66 tickrate and map loading without errors. To verify the CS:S mount was successful, change the level to a mounted CS:S map (e.g., `changelevel cs_italy`) via the console. Press `CTRL+B` then `D` to detach from the tmux console.
 
 ---
 
