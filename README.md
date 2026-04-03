@@ -17,8 +17,9 @@ This document provides comprehensive technical instructions for deploying, confi
 Ubuntu 24.04 (Noble Numbat) requires enabling the 32-bit architecture to run Source engine binaries and SteamCMD.
 
 ```bash
+sudo timedatectl set-timezone Europe/Berlin
 sudo dpkg --add-architecture i386
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat-openbsd lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd nginx mariadb-server fail2ban -y
 ```
 
