@@ -33,6 +33,64 @@ sudo adduser gmodserver
 su - gmodserver
 ```
 
+**Optional: Sudo Privileges for gmodserver Service**
+Grant tightly scoped sudo so `gmodserver` can only manage its own systemd service.
+
+```bash
+# Create a systemd unit (if not already present); runs as the gmodserver user
+sudo tee /etc/systemd/system/gmodserver.service > /dev/null << 'EOF'
+[Unit]
+Description=LinuxGSM Garry's Mod Server (gmodserver)
+After=network.target
+
+[Service]
+User=gmodserver
+WorkingDirectory=/home/gmodserver
+ExecStart=/home/gmodserver/gmodserver start
+ExecStop=/home/gmodserver/gmodserver stop
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+EOF
+sudo systemctl daemon-reload
+sudo systemctl enable gmodserver
+```
+
+Configure restricted sudoers entry:
+
+```bash
+sudo visudo -f /etc/sudoers.d/gmodserver
+```
+
+Paste:
+
+```
+Defaults:gmodserver env_reset
+Defaults:gmodserver secure_path="/usr/sbin:/usr/bin:/sbin:/bin"
+gmodserver ALL=(root) /usr/bin/systemctl start gmodserver, /usr/bin/systemctl stop gmodserver, /usr/bin/systemctl restart gmodserver, /usr/bin/systemctl status gmodserver
+```
+
+_Press `Ctrl+O` to save, then `Ctrl+X` to exit._
+
+Security best practices:
+
+- Do not use `NOPASSWD` unless strictly necessary; requiring a password is safer.
+- Limit to the exact commands and unit name; never grant broad `systemctl` access.
+- Keep `/etc/sudoers.d/gmodserver` owned by root and mode `440`.
+
+Verification:
+
+- List privileges: `sudo -l` (as gmodserver).
+- Start service: `sudo systemctl start gmodserver` then `sudo systemctl status gmodserver`.
+- Attempt an unapproved command (e.g. `sudo systemctl reboot`) should be denied.
+
+Troubleshooting:
+
+- If `visudo` reports errors, fix syntax before saving.
+- If `systemctl` path differs (`which systemctl`), update `secure_path` and command entries.
+- Ensure the unit exists: `systemctl list-unit-files | grep gmodserver`.
+
 **Firewall Configuration (UFW):**
 GMod and LinuxGSM require specific ports. Ensure UFW is active.
 
@@ -46,6 +104,45 @@ sudo ufw allow 80/tcp    # FastDL (Nginx)
 sudo ufw allow 22/tcp    # SSH
 sudo ufw reload
 ```
+
+**Optional: SSH Key Authentication**
+Set up key-based SSH for `gmodserver` and disable password login.
+
+Generate key on your admin machine:
+
+```bash
+ssh-keygen -t ed25519 -C "PaulsTTT admin" -f ~/.ssh/pauls-ttt
+```
+
+Deploy the public key to the server:
+
+```bash
+# Replace <server-ip> accordingly
+ssh gmodserver@ < server-ip > 'mkdir -p ~/.ssh && chmod 700 ~/.ssh'
+scp ~/.ssh/pauls-ttt.pub gmodserver@ < server-ip > :/home/gmodserver/.ssh/
+ssh gmodserver@ < server-ip > 'cat ~/.ssh/pauls-ttt.pub >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && chown -R gmodserver:gmodserver ~/.ssh'
+```
+
+Harden SSH daemon:
+
+```bash
+sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin no/' /etc/ssh/sshd_config
+sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication no/' /etc/ssh/sshd_config
+sudo sed -i 's/^#\?PubkeyAuthentication.*/PubkeyAuthentication yes/' /etc/ssh/sshd_config
+sudo systemctl restart ssh
+```
+
+Verification:
+
+- Connect with key: `ssh -i ~/.ssh/pauls-ttt gmodserver@<server-ip>` then `whoami` (should print `gmodserver`).
+- Test sudo prompt: `sudo -v` then `sudo -l`.
+- Ensure UFW shows SSH open: `sudo ufw status`.
+
+Troubleshooting:
+
+- `Permission denied (publickey)`: check file modes (`~/.ssh` 700, `authorized_keys` 600), ownership (`gmodserver:gmodserver`).
+- Use `ssh -vv gmodserver@<server-ip>` to debug auth.
+- If locked out, use console access to temporarily set `PasswordAuthentication yes`, restart SSH, then fix keys and revert.
 
 **LinuxGSM Installation:**
 As the `gmodserver` user, download and install LinuxGSM:
