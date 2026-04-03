@@ -322,6 +322,39 @@ resource.AddWorkshop("YOUR_WORKSHOP_COLLECTION_ID")
 - **Optimization:** Pack custom materials, models, and sounds into a single `.gma` using GMAD, or extract them directly to the `serverfiles/garrysmod/` directories to serve via FastDL.
 - **Load Order:** Garry's Mod loads addons alphabetically. If a TTT2 role depends on a base mod, ensure the base mod's folder name precedes the role mod's folder name, or use `hook.Add("Initialize", ...)` in Lua to ensure dependencies are loaded.
 
+**Manual Workshop Map Download (SteamCMD & FastDL):**
+To manually download a specific map, such as **TTT_Waterworld_Remastered_2020** ([Workshop ID 1293781407](https://steamcommunity.com/sharedfiles/filedetails/?id=1293781407)), and configure it for FastDL distribution on your LinuxGSM Garry's Mod server:
+
+1. **Download via SteamCMD:**
+   Log in anonymously and download the Garry's Mod (AppID `4000`) workshop item:
+   ```bash
+   steamcmd +login anonymous +workshop_download_item 4000 1293781407 +quit
+   ```
+2. **Integrate into Server:**
+   The downloaded `.gma` file will be saved in the SteamCMD workshop content directory (typically `~/.local/share/Steam/steamapps/workshop/content/4000/1293781407/`).
+   Extract the `.gma` file using the `gmad_linux` utility included with your server, then copy the extracted `.bsp` map file into the server's maps directory:
+
+   ```bash
+   # Extract the .gma archive
+   /home/gmodserver/serverfiles/bin/gmad_linux extract -file ~/.local/share/Steam/steamapps/workshop/content/4000/1293781407/*.gma -out /tmp/ttt_waterworld
+   
+   # Copy the map file to the server's maps folder
+   cp /tmp/ttt_waterworld/maps/*.bsp /home/gmodserver/serverfiles/garrysmod/maps/
+   ```
+
+3. **Configure for FastDL:**
+   Use the LinuxGSM FastDL command to automatically generate compressed `.bz2` files and sync the content to your FastDL web directory (`/home/gmodserver/public_html/fastdl`):
+   ```bash
+   ./gmodserver fastdl
+   ```
+4. **Configuration Edit:**
+   Add the new map to your map rotation file `/home/gmodserver/serverfiles/garrysmod/cfg/mapcycle.txt`:
+   ```text
+   ttt_waterworld_remastered_2020
+   ```
+5. **Verification:**
+   Restart the server (`./gmodserver restart`). Join the server and check the client console to ensure the map is downloaded quickly via your FastDL URL (`http://fastdl.pauls-ttt.com/maps/ttt_waterworld_remastered_2020.bsp.bz2`) rather than falling back to the Workshop or slow SRCDS downloads.
+
 _Verification Step:_ Join the server with an empty `garrysmod/addons/` folder locally and verify that Workshop content downloads automatically.
 
 ---
