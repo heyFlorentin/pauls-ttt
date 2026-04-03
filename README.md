@@ -195,7 +195,7 @@ sudo nano /etc/nginx/sites-available/fastdl
 ```nginx
 server {
     listen 80;
-    server_name fastdl.pauls-ttt.com; # Replace with your domain/IP
+    server_name 127.0.0.1; # Replace with your domain/IP
     root /home/gmodserver/serverfiles/garrysmod;
 
     location / {
@@ -216,6 +216,18 @@ sudo ln -s /etc/nginx/sites-available/fastdl /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 
+**Fixing 403 Forbidden Errors (Permissions):**
+If you encounter a `403 Forbidden` error when testing your FastDL URL, Nginx likely lacks permission to read the `gmodserver` home directory. Run the following to grant the necessary access:
+
+```bash
+sudo usermod -aG gmodserver www-data
+sudo chmod 750 /home/gmodserver
+sudo chmod -R 755 /home/gmodserver/serverfiles/garrysmod
+sudo systemctl restart nginx
+```
+
+_(Note: If your system uses a different Nginx user, such as `nginx` on CentOS/RHEL, replace `www-data` with `nginx`)_
+
 **Cronjobs (Monitoring, Backup, Updates):**
 As the `gmodserver` user, automate server tasks:
 
@@ -233,7 +245,7 @@ Add the following lines:
 0 4 * * * /home/gmodserver/gmodserver restart > /dev/null 2>&1 # Daily restart for stability
 ```
 
-_Verification Step:_ Run `crontab -l` to ensure cronjobs are saved. Access `http://fastdl.pauls-ttt.com/maps/` in a web browser to test Nginx FastDL (ensure no `.cfg` files are accessible).
+_Verification Step:_ Run `crontab -l` to ensure cronjobs are saved. Access `http://127.0.0.1/maps/` in a web browser to test Nginx FastDL (ensure no `.cfg` files are accessible).
 
 ---
 
