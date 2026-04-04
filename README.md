@@ -243,35 +243,7 @@ _Verification Step:_ Start the server (`./gmodserver start`). Check the console 
 
 ---
 
-## 4. Steam Workshop Integration
-
-**Workshop Collection Setup:**
-
-1. Create a Steam Workshop Collection and set it to "Unlisted" or "Public".
-2. Add all 300+ mods to this collection.
-3. Retrieve the Collection ID from the URL.
-4. Enter it in `lgsm/config-lgsm/gmodserver/common.cfg`: `wscollectionid="3698746151"`
-
-**`workshop.lua` Configuration:**
-To force clients to download the addons, create `/home/gmodserver/serverfiles/garrysmod/lua/autorun/server/workshop.lua`.
-
-```lua
--- Automatically instruct clients to download the collection
-resource.AddWorkshop("YOUR_WORKSHOP_COLLECTION_ID")
-
--- For critical individual items that fail to mount properly via collection:
--- resource.AddWorkshop("123456789")
-```
-
-**Handling 300+ Mods (Dependency Resolution & Load Order):**
-
-- **Avoid 300 individual Workshop items:** Loading 300+ individual Workshop items causes a "Connection Timed Out" error for joining players due to the time it takes the client to query Steam.
-- **Optimization:** Pack custom materials, models, and sounds into a single `.gma` using GMAD.
-- **Load Order:** Garry's Mod loads addons alphabetically. If a TTT2 role depends on a base mod, ensure the base mod's folder name precedes the role mod's folder name, or use `hook.Add("Initialize", ...)` in Lua to ensure dependencies are loaded.
-
----
-
-## 5. Performance and Stability Optimization
+## 4. Performance and Stability Optimization
 
 **Server Performance Tuning:**
 
@@ -293,7 +265,7 @@ _Verification Step:_ Monitor server performance via `htop` or the `./gmodserver 
 
 ---
 
-## 6. Security Implementation
+## 5. Security Implementation
 
 **SSH Hardening:**
 Edit `/etc/ssh/sshd_config` as `root`:
@@ -337,7 +309,7 @@ _Verification Step:_ Attempt to connect via SSH using a password (should be reje
 
 ---
 
-## 7. Troubleshooting Guide
+## 6. Troubleshooting Guide
 
 **Common LinuxGSM Errors:**
 
@@ -365,7 +337,7 @@ _Verification Step:_ Intentionally stop the server process using `kill -9 <pid>`
 
 ---
 
-## 8. Additional Components
+## 7. Additional Components
 
 **Backup and Recovery:**
 LinuxGSM includes a backup tool.
