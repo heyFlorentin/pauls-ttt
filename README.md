@@ -160,7 +160,7 @@ _Verification Step:_ Run `./gmodserver details` to confirm the installation dire
 LinuxGSM configuration files override default server parameters. Edit the main LinuxGSM config file:
 
 ```bash
-nano /home/gmodserver/serverfiles/lgsm/config-lgsm/gmodserver/gmodserver.cfg
+nano /home/gmodserver/lgsm/config-lgsm/gmodserver/gmodserver.cfg
 ```
 
 Add/modify the following parameters:
