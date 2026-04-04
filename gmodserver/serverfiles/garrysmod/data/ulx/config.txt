@@ -18,12 +18,12 @@ ulx motdurl ulyssesmod.net ; The MOTD to show, if using a URL.
 
 
 ulx chattime 0 ; Players can only chat every x seconds (anti-spam). 0 to disable
-ulx meChatEnabled 1 ; Allow players to use '/me' in chat. 0 = Disabled, 1 = Sandbox only (Default), 2 = Enabled
+ulx meChatEnabled 0 ; Allow players to use '/me' in chat. 0 = Disabled, 1 = Sandbox only (Default), 2 = Enabled
 
 
 ; This is what the players will see when they join, set it to "" to disable.
 ; You can use %host% and %curmap% in your text and have it automagically parsed for you
-ulx welcomemessage ""
+ulx welcomemessage  
 
 
 ulx logFile 1 ; Log to file (Can still echo if off). This is a global setting, nothing will be logged to file with this off.
@@ -33,7 +33,7 @@ ulx logSpawns 1 ; Log when players spawn objects (props, effects, etc)
 ulx logSpawnsEcho 1 ; Echo spawns to players in server. -1 = Off, 0 = Dedicated console only, 1 = Admins only, 2 = All players. (Echoes to console)
 ulx logJoinLeaveEcho 1 ; Echo players leaves and joins to admins in the server (useful for banning minges)
 ulx logDir "ulx_logs" ; The log dir under garrysmod/data
-ulx logEcho 2 ; Echo mode
+ulx logEcho 1 ; Echo mode
 ; Echo modes:
 ; 0 - OFF No output to any players when an admin command is used
 ; 1 - ANONYMOUS Output to players without access to see who used the command (admins by default) similar to "(Someone) slapped Bob with 0 damage"
@@ -48,9 +48,9 @@ ulx logEchoColorPlayerAsGroup 1 ; Whether or not to use group colors for players
 ulx logEchoColorPlayer "255 255 0" ; The color to use for players when ulx logEchoColorPlayerAsGroup is set to 0.
 ulx logEchoColorMisc "0 255 0" ; The color for anything else in echoes
 
-ulx rslotsMode 0
-ulx rslots 2
-ulx rslotsVisible 1 ; When this is 0, sv_visiblemaxplayers will be set to maxplayers - slots_currently_reserved
+ulx rslotsMode 1
+ulx rslots 3
+ulx rslotsVisible 0 ; When this is 0, sv_visiblemaxplayers will be set to maxplayers - slots_currently_reserved
 ;Modes:
 ;0 - Off
 ;1 - Keep # of slots reserved for admins, admins fill slots.
