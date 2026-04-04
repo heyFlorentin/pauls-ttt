@@ -157,7 +157,7 @@ _Verification Step:_ Run `./gmodserver details` to confirm the installation dire
 ## 2. LinuxGSM Configuration
 
 **Server Instance Configuration:**
-LinuxGSM configuration files override default server parameters. Edit the main LinuxGSM config file:
+LinuxGSM configuration files override default server parameters. Edit the LinuxGSM config files:
 
 ```bash
 nano /home/gmodserver/lgsm/config-lgsm/gmodserver/gmodserver.cfg
@@ -167,6 +167,19 @@ Add/modify the following parameters:
 
 ```ini
 gslt=""
+```
+
+```bash
+nano /home/gmodserver/lgsm/config-lgsm/gmodserver/common.cfg
+```
+
+Add/modify the following parameters:
+
+```ini
+gamemode="terrortown"
+wscollectionid="3698746151"
+maxplayers="64"
+defaultmap="ttt_simple_otat1"
 ```
 
 **Cronjobs (Monitoring, Backup, Updates):**
