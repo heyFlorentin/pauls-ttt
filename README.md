@@ -235,7 +235,7 @@ Many Garry's Mod maps and addons (especially in TTT) require Counter-Strike: Sou
    ```ini
    "mountcfg"
    {
-     "cstrike"	"/home/gmodserver/css/cstrike"
+      "cstrike"	"/home/gmodserver/serverfiles/cstrike"
    }
    ```
 
