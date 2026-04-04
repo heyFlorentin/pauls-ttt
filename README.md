@@ -96,7 +96,6 @@ GMod and LinuxGSM require specific ports. Ensure UFW is active.
 
 ```bash
 sudo ufw enable
-sudo ufw allow 27015/tcp # RCON/Query
 sudo ufw allow 27015/udp # Game Traffic
 sudo ufw allow 27005/udp # Client Port
 sudo ufw allow 27020/udp # SourceTV
@@ -167,16 +166,7 @@ nano /home/gmodserver/serverfiles/lgsm/config-lgsm/gmodserver/gmodserver.cfg
 Add/modify the following parameters:
 
 ```ini
-gslt="YOUR_GSLT" # https://steamcommunity.com/dev/managegameservers
-gamemode="terrortown"
-defaultmap="ttt_teenroom_2025_los"
-maxplayers="32"
-tickrate="66"
-port="27015"
-clientport="27005"
-wsapikey="YOUR_STEAM_WEB_API_KEY" # https://steamcommunity.com/dev/apikey
-wscollectionid="3698746151"
-startparameters="-game garrysmod -strictportbind -ip ${ip} -port ${port} -tickrate ${tickrate} +host_workshop_collection ${wscollectionid} +clientport ${clientport} +tv_port ${sourcetvport} +gamemode ${gamemode} +map ${defaultmap} +sv_setsteamaccount ${gslt} +servercfgfile ${servercfg} -maxplayers ${maxplayers} -disableluarefresh"
+gslt=""
 ```
 
 **Cronjobs (Monitoring, Backup, Updates):**
@@ -205,27 +195,6 @@ _Verification Step:_ Run `crontab -l` to ensure cronjobs are saved.
 **`server.cfg` Customization:**
 File: `/home/gmodserver/serverfiles/garrysmod/cfg/gmodserver.cfg`
 
-```ini
-hostname "Paul & Friends TTT2 | 66 Tick"
-sv_password ""       // Set if you want a private server
-rcon_password ""     // Disabled for security; use server console/LinuxGSM instead
-
-// Network
-sv_downloadurl "http://127.0.0.1/"
-sv_allowdownload 1   // Forces clients to use Workshop
-sv_allowupload 1
-net_maxfilesize 64
-
-// Tickrate & Rates (Optimized for 66 Tick)
-sv_minrate 1048576
-sv_maxrate 0
-sv_minupdaterate 66
-sv_maxupdaterate 66
-sv_mincmdrate 66
-sv_maxcmdrate 66
-gmod_physiterations 2 // Lowers physics CPU usage
-```
-
 **`autoexec.cfg`:**
 File: `/home/gmodserver/serverfiles/garrysmod/cfg/autoexec.cfg`
 Used for commands that must execute before the first map loads.
@@ -242,62 +211,33 @@ sv_maxcmdrate 66
 **Mounting Counter-Strike: Source (CS:S) Content:**
 Many Garry's Mod maps and addons (especially in TTT) require Counter-Strike: Source assets. To mount CS:S content to your `gmodserver` instance, follow these steps:
 
-1. **Obtain Content and copy to GMod Server:**
+1. **Obtain CS:S Content and copy to GMod Server:**
    Install content to be mounted using LinuxGSM to download the required assets. Refer to the [official LinuxGSM CS:S server guide](https://linuxgsm.com/servers/cssserver/) for complete installation instructions.
-   - **Counter-Strike: Source**
-     ```bash
-     adduser cssserver
-     su - cssserver
-     curl -Lo linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh cssserver
-     ./cssserver auto-install
-     cp -R /home/cssserver/serverfiles/cstrike /home/gmodserver/serverfiles/cstrike
-     chown -R gmodserver:gmodserver /home/gmodserver/serverfiles/cstrike
-     ```
-   - **Team Fortress 2**
-     ```bash
-     adduser tf2server
-     su - tf2server
-     curl -Lo linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh tf2server
-     ./tf2server auto-install
-     cp -R /home/tf2server/serverfiles/tf /home/gmodserver/serverfiles/tf
-     chown -R gmodserver:gmodserver /home/gmodserver/serverfiles/tf
-     ```
 
-2. **Mount Content:**
-   - **Configure `mount.cfg`:**
-     Edit the mount configuration file:
-     ```bash
-     nano /home/gmodserver/serverfiles/garrysmod/cfg/mount.cfg
-     ```
-     Update the file to include the absolute path to the directories for each game:
-     ```ini
-     "mountcfg"
-     {
-     "cstrike" "/home/gmodserver/serverfiles/cstrike"
-     "tf" "/home/gmodserver/serverfiles/tf"
-     "hl2" "/home/gmodserver/serverfiles/hl2"
-     }
-     ```
-   - **Configure `mountdepots.txt`:**
-     Edit the mount configuration file:
-     ```bash
-     nano /home/gmodserver/serverfiles/garrysmod/cfg/mountdepots.txt
-     ```
-     Update the file to include the absolute path to the `cstrike` directory:
-     ```txt
-     "gamedepotsystem"
-     {
-       "cstrike"		"1"
-       "tf"		"1"
-       "hl1"		"1"
-       "hl1_hd"		"1"
-       "hl2"		"1"
-       "hl2mp"		"1"
-       "episodic"		"1"
-       "ep2"		"1"
-       "lostcoast"		"1"
-     }
-     ```
+   ```bash
+   adduser cssserver
+   su - cssserver
+   curl -Lo linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh cssserver
+   ./cssserver auto-install
+   cp -R /home/cssserver/serverfiles/cstrike /home/gmodserver/serverfiles/cstrike
+   chown -R gmodserver:gmodserver /home/gmodserver/serverfiles/cstrike
+   ```
+
+2. **Mount Content in `mount.cfg`:**
+   Edit the mount configuration file:
+
+   ```bash
+   nano /home/gmodserver/serverfiles/garrysmod/cfg/mount.cfg
+   ```
+
+   Update the file to include the absolute path to the directories for each game:
+
+   ```ini
+   "mountcfg"
+   {
+     "cstrike"	"/home/gmodserver/css/cstrike"
+   }
+   ```
 
 _Verification Step:_ Start the server (`./gmodserver start`). Check the console (`./gmodserver console`) to verify the 66 tickrate and map loading without errors. To verify the CS:S mount was successful, change the level to a mounted CS:S map (e.g., `changelevel cs_italy`) via the console. Press `CTRL+B` then `D` to detach from the tmux console.
 
@@ -310,8 +250,7 @@ _Verification Step:_ Start the server (`./gmodserver start`). Check the console 
 1. Create a Steam Workshop Collection and set it to "Unlisted" or "Public".
 2. Add all 300+ mods to this collection.
 3. Retrieve the Collection ID from the URL.
-4. Retrieve a Steam Web API Key from `https://steamcommunity.com/dev/apikey`.
-5. Enter both in `lgsm/config-lgsm/gmodserver/gmodserver.cfg` as shown in Section 2.
+4. Enter it in `lgsm/config-lgsm/gmodserver/common.cfg`: `wscollectionid="3698746151"`
 
 **`workshop.lua` Configuration:**
 To force clients to download the addons, create `/home/gmodserver/serverfiles/garrysmod/lua/autorun/server/workshop.lua`.
